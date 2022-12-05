@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">valorantApp</string>
+
+    <string name="jett">JETT</string>
+    <string name="OMEN">OMEN</string>
+    <string name="Brim">BRIM</string>
+    <string name="sage">SAGE</string>
+    <string name="phoenix">PHOENIX</string>
+    <string name="VIPER">VIPER</string>
+    <string name="agentes">AGENTES</string>
+
+
+    <!--Strings tela cadastro e login-->
+    <string name="cadastro_nome">Nome</string>
+    <string name="cadastro_email">Email</string>
+    <string name="cadastro_senha">Senha</string>
+    <string name="cadastro_btn">Cadastrar</string>
+    <string name="login_btn">Entrar</string>
+    <string name="rememberme_btn">Lembrar login</string>
+
+    <!--Strings tela perfil -->
+    <string name="perfil_nome">Nome</string>
+    <string name="perfil_status">Status</string>
+    <string name="perfil_email">Email</string>
+    <string name="perfil_senha">Senha</string>
+    <string name="perfil">Informações da conta</string>
+    <string name="title_activity_viper">viper</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--Tela Sage -->
+    <string name="ultSage">(X)REVIVE</string>
+    <string name="cSage">(E)CURA</string>
+    <string name="qSage">(Q)ORBE DE SLOW</string>
+    <string name="eSage">(C)ORBE DE BARREIRA</string>
+    <string name="desc_xSage">Sage pode reviver um aliado</string>
+    <string name="desc_qSage">Lança um orb de lentidão</string>
+    <string name="desc_eSage">Sage cura seus aligos e a si mesma</string>
+    <string name="desc_cSage">Lança um orbe de uma parede</string>
+
+
+    <!--Tela Phoenix -->
+    <string name="cPhoenix">(C)CHAMA</string>
+    <string name="qPhoenix">(E)MÃOS QUENTES</string>
+    <string name="habiqPhoenix">(Q)BOLA CURVA</string>
+    <string name="habixPhoenix">(X)EXECUTE DE VOLTA</string>
+    <string name="ePhoenix">Bola de fogo</string>
+    <string name="desc_cPhoenix">Parede de Fogo</string>
+    <string name="desc_qPhoenix">Esfera sinalizadora que segue um caminho curvo.</string>
+    <string name="desc_xPhoenix">Phoenix pode reviver</string>
+
+
+    <!--Tela Viper -->
+    <string name="habicViper">(C)VENENO DE COBRA</string>
+    <string name="habiqViper">(Q)NUVEM VENENOSA</string>
+    <string name="habieViper">(E)CORTINAS TÓXICAS</string>
+    <string name="habixViper">(X)POÇO PEÇONHENTO</string>
+    <string name="desc_cViper">Dispara um projétil que, ao entrar em contato com o solo, cria uma poça de veneno que dá dano e lentidão aos inimigos por 9 segundos.</string>
+    <string name="desc_eViper">Cria uma parede de gás tóxico que, aos poucos, drena o combustível de Viper.</string>
+    <string name="desc_qViper">Arremessa a granada para frente, que pode ficar no chão até o fim da rodada caso não seja usada ou recolida.</string>
+    <string name="desc_xViper">Após canalizar por dois segundos, Viper cria uma cortina tóxica na região onde liberou o veneno, reduzindo a visão e vida máxima dos jogadores dentro da mesma.r</string>
+
+    <!--Tela jett -->
+    <string name="habicJett">(C)Brisa de Impulso</string>
+    <string name="habiqJett">(Q)Corrente Ascendente</string>
+    <string name="habieJett">(E)Erupção de Brumas</string>
+    <string name="habixJett">(X)Tormenta de Aço</string>
+    <string name="desc_cJett">Impulsiona Jett instantaneamente para a direção que a agente está se movendo.</string>
+    <string name="desc_ceett">Jett lança instantaneamente um projétil que se expande em uma nuvem de ar</string>
+    <string name="desc_qJett">Impulsiona Jett instantaneamente para o alto</string>
+    <string name="desc_xJett">Jett se equipa com um conjunto de facas de arremesso e alta precisão.</string>
+
+    <!-- Tela Brim -->
+    <string name="habicBrim">(C) STIM BEACON</string>
+    <string name="habiqBrim">(Q)INCENDIÁRIA</string>
+    <string name="habieBrim">(E) FUMAÇA DO CÉU</string>
+    <string name="habixBrim">(X) GOLPE ORBITAL</string>
+    <string name="desc_cBrim">lance um sinal de estimulação</string>
+    <string name="desc_eBrim">Lança fumaças do céu</string>
+    <string name="desc_qBrim">lançador de granadas incendiário.</string>
+    <string name="desc_xBrim">Laser de ataque orbital prolongado no local selecionado</string>
+
+    //String tela viper
+    <string name="viper">VIPER</string>
+    <string name="viper_descricao">A química americana Viper implanta uma série de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo.</string>
+
+    //String tela jett
+    <string name="jett_perso">Jett</string>
+    <string name="jett_descricao">Representando seu país natal, a Coreia do Sul, o estilo de luta ágil e evasivo de Jett permite que ela corra riscos que ninguém mais consegue.</string>
+
+    //String tela omen
+    <string name="omen_perso">Omen</string>
+    <string name="omen_descricao">Um fantasma de uma memória, Omen caça nas sombras. Ele deixa os inimigos cegos, se teletransporta pelo campo e deixa a paranóia </string>
+
+    //String tela brim
+    <string name="brim_perso">Brimstone</string>
+    <string name="brim_descricao">Vindo dos EUA, o arsenal orbital de Brimstone garante que seu esquadrão sempre tenha vantagem. Sua capacidade de fornecer utilidade com precisão e à distância</string>
+
+    //String tela phoenix
+    <string name="phoenix_perso">Phoenix</string>
+    <string name="phoenix_descricao">Vindo do Reino Unido, o poder estelar de Phoenix brilha em seu estilo de luta, inflamando o campo de batalha com flash e brilho.
+</string>
+
+    //String tela phoenix
+    <string name="sage_perso">Phoenix</string>
+    <string name="sage_descricao">Vindo do Reino Unido, o poder estelar de Phoenix brilha em seu estilo de luta, inflamando o campo de batalha com flash e brilho.
+</string>
+
+    //String tela phoenix
+    <string name="home_descricao">Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa desenvolvido e publicado pela Riot Games.</string>
+    <string name="valorant">VALORANT</string>
+
+
+</resources>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2C2C"
+    tools:context=".personagens">
+
+    <View
+        android:id="@+id/view_hiro"
+        android:layout_width="fill_parent"
+        android:layout_height="89dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#000"
+        app:layout_constraintBottom_toTopOf="@+id/view_baymax"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view_homey"
+        android:layout_width="fill_parent"
+        android:layout_height="89dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:backgroundTint="#000"
+        app:layout_constraintBottom_toTopOf="@+id/img_btn_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_wasabi" />
+
+    <View
+        android:id="@+id/view_wasabi"
+        android:layout_width="fill_parent"
+        android:layout_height="89dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#000"
+        app:layout_constraintBottom_toTopOf="@+id/view_homey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_tomago" />
+
+    <View
+        android:id="@+id/view_baymax"
+        android:layout_width="fill_parent"
+        android:layout_height="89dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#000"
+        app:layout_constraintBottom_toTopOf="@+id/view_fred"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_hiro" />
+
+    <View
+        android:id="@+id/view_tomago"
+        android:layout_width="fill_parent"
+        android:layout_height="89dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#000"
+        app:layout_constraintBottom_toTopOf="@+id/view_wasabi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_fred" />
+
+
+    <ImageButton
+        android:id="@+id/img_btn_home"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#2C2C2C"
+        android:onClick="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774"
+        app:srcCompat="@drawable/ic_homewhite" />
+
+    <ImageButton
+        android:id="@+id/img_btn_persons"
+        android:layout_width="104dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="600dp"
+        android:backgroundTint="#2C2C2C"
+        android:onClick="Perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/img_btn_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901"
+        app:srcCompat="@drawable/ic_personwhite" />
+
+    <View
+        android:id="@+id/view_fred"
+        android:layout_width="fill_parent"
+        android:layout_height="89dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#000"
+        app:layout_constraintBottom_toTopOf="@+id/view_tomago"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_baymax" />
+
+    <Button
+        android:id="@+id/btn_hiro"
+        android:layout_width="419dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Jett"
+        android:text="JETT"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view_hiro"
+        app:layout_constraintEnd_toEndOf="@+id/view_hiro"
+        app:layout_constraintStart_toStartOf="@+id/view_hiro"
+        app:layout_constraintTop_toTopOf="@+id/view_hiro" />
+
+    <Button
+        android:id="@+id/btn_omen"
+        android:layout_width="419dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Omen"
+        android:text="OMEN"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_baymax"
+        app:layout_constraintEnd_toEndOf="@id/view_baymax"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="@+id/view_baymax"
+        app:layout_constraintTop_toTopOf="@id/view_baymax"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_brim"
+        android:layout_width="415dp"
+        android:layout_height="92dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Brimstone"
+        android:text="BRIMSTONE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_fred"
+        app:layout_constraintEnd_toEndOf="@id/view_baymax"
+        app:layout_constraintStart_toStartOf="@+id/view_fred"
+        app:layout_constraintTop_toTopOf="@id/view_fred" />
+
+    <Button
+        android:id="@+id/btn_tomago"
+        android:layout_width="426dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Viper"
+        android:text="VIPER"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_tomago"
+        app:layout_constraintEnd_toEndOf="@id/view_tomago"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view_tomago" />
+
+    <Button
+        android:id="@+id/btn_sage"
+        android:layout_width="418dp"
+        android:layout_height="88dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Sage"
+        android:text="SAGE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_wasabi"
+        app:layout_constraintEnd_toEndOf="@id/view_wasabi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view_wasabi" />
+
+    <Button
+        android:id="@+id/btn_phoenix"
+        android:layout_width="419dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#F44336"
+        android:onClick="Phoenix"
+        android:text="PHOENIX"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/view_homey"
+        app:layout_constraintEnd_toEndOf="@id/view_homey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/view_homey" />
+
+    <ImageButton
+        android:id="@+id/img_btn_voltar"
+        android:layout_width="68dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="#2C2C2C"
+        android:onClick="Back"
+        app:layout_constraintBottom_toTopOf="@+id/view_hiro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_backwhite" />
+
+    <TextView
+        android:id="@+id/txt_personegens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/agentes"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view_hiro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+</androidx.constraintlayout.widget.ConstraintLayout>

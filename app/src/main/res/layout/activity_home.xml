@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2C2C"
+    tools:context=".home">
+
+    <ImageButton
+        android:id="@+id/img_btn_home8"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#2C2C2C"
+        android:onClick="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_homewhite" />
+
+    <ImageButton
+        android:id="@+id/img_btn_persons7"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="280dp"
+        android:backgroundTint="#2C2C2C"
+        android:onClick="Perfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_personwhite" />
+
+    <ImageButton
+        android:id="@+id/img_home_mais2"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#2C2C2C"
+        android:onClick="Trailer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        />
+
+    <Button
+        android:id="@+id/btn_persona"
+        android:layout_width="285dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#B61024"
+        android:onClick="Personagens"
+        android:text="AGENTES"
+        app:cornerRadius="30sp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="@string/valorant"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_descHome"
+        android:layout_width="403dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="264dp"
+        android:backgroundTint="#0000"
+        android:enabled="false"
+        android:text="@string/home_descricao"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="351dp"
+        android:layout_height="237dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_descHome"
+        app:layout_constraintStart_toStartOf="@+id/btn_descHome"
+        app:layout_constraintTop_toTopOf="@+id/textView17"
+        app:srcCompat="@drawable/valorant" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
